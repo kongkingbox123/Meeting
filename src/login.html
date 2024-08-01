@@ -1,0 +1,107 @@
+<!--
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เข้าสู่ระบบจองห้องประชุม</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <script src="/src/js/login.js"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between">
+                <div class="text-white text-xl font-bold">ระบบจองห้องประชุม</div>
+                <div>
+                    <input id="searchInput" type="text" placeholder="ค้นหาการจอง" class="px-4 py-2 rounded" onkeyup="searchBooking()">
+                    <button onclick="searchBooking()" class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded">ค้นหา</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold mb-4">เข้าสู่ระบบ</h1>
+        <form id="loginForm" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="firstName">
+                    ชื่อ
+                </label>
+                <input type="text" id="firstName" name="firstName" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="lastName">
+                    นามสกุล
+                </label>
+                <input type="text" id="lastName" name="lastName" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="phone">
+                    เบอร์โทรศัพท์
+                </label>
+                <input type="text" id="phone" name="phone" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="flex items-center justify-between">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                    เข้าสู่ระบบ
+                </button>
+            </div>
+        </form>
+        <div id="loginResult" class="mt-4"></div>
+    </div>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เข้าสู่ระบบจองห้องประชุม</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <script src="/src/js/login.js" defer></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between">
+                <div class="text-white text-xl font-bold">ระบบจองห้องประชุม</div>
+                <div>
+                    <input id="searchInput" type="text" placeholder="ค้นหาการจอง" class="px-4 py-2 rounded" onkeyup="searchBooking()">
+                    <button onclick="searchBooking()" class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded">ค้นหา</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold mb-4">เข้าสู่ระบบ</h1>
+        <form id="loginForm" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="firstName">
+                    ชื่อ
+                </label>
+                <input type="text" id="firstName" name="firstName" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="lastName">
+                    นามสกุล
+                </label>
+                <input type="text" id="lastName" name="lastName" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="phone">
+                    เบอร์โทรศัพท์
+                </label>
+                <input type="text" id="phone" name="phone" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="flex items-center justify-between">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                    เข้าสู่ระบบ
+                </button>
+            </div>
+        </form>
+        <div id="loginResult" class="mt-4"></div>
+    </div>
+</body>
+</html>
+
+
